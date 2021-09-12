@@ -37,7 +37,10 @@ phases:
       - printf '[{"name":"simple_jwt_api","imageUri":"%s"}]' $REPOSITORY_URI:$TAG > build.json
 artifacts:
   files: build.json
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1b2ffd8d2296f6a4d390bc5e906403e422869f2b
 env:
   parameter-store:
     JWT_SECRET: JWT_SECRET
